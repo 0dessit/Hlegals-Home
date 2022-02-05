@@ -260,7 +260,16 @@
   flex-wrap: wrap;
   gap: 60px 60px;
 }
-.services__link {
+.arrow__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services__arrow--link {
   position: relative;
   text-decoration: none;
   font-weight: bold;
@@ -268,15 +277,18 @@
   line-height: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #f0145a;
   padding: 3px;
+  color: #f0145a;
+}
+
+.arrow {
+  width: 12px;
+  height: 12px;
 }
 .services__arrow {
   position: absolute;
   left: 85px;
   top: 6px;
-  width: 12px;
-  height: 12px;
 }
 .services__main--title {
   font-style: normal;
@@ -325,3 +337,5 @@
   line-height: 26px;
   color: #ffffff;
 }
+
+/* !=============TEAM========== */
