@@ -326,6 +326,7 @@
 
 /* !=============TEAM========== */
 .team__box {
+  position: relative;
   display: flex;
   margin: 80px 0 106px 0;
 }
@@ -339,6 +340,12 @@
   justify-content: center;
   background-color: #f5f5fa;
   border-radius: 0 12px 12px 0;
+}
+
+.scroll {
+  top: 330px;
+  left: 800px;
+  position: absolute;
 }
 
 .team__arrow--link {
