@@ -1,6 +1,6 @@
 /* !=============Header========== */
 
-.header {
+.background-header {
   position: relative;
   margin-bottom: 20px;
   padding: 50px 0;
@@ -13,7 +13,7 @@
   border-radius: 0px 0px 12px 12px;
 }
 
-.header::before {
+.background-header::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -24,7 +24,7 @@
   font-size: 20px;
   border-radius: 0px 0px 12px 12px;
 }
-.header::after {
+.background-header::after {
   content: "";
   position: absolute;
   top: calc(100% + 10px);
@@ -36,36 +36,39 @@
   border-radius: 0px 0px 12px 12px;
 }
 
-.header__container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header__container--logo {
+  position: relative;
+  top: 0;
+  left: 0;
   background-image: url(/images/logo/background-Logo.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-items {
   position: relative;
 }
-
 .main-title {
-  margin: 430px 0 537px 395px;
+  padding: 430px 0 537px 395px;
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
   color: #ffffff;
+  margin: 0;
 }
 
 .scroll-btn {
-  position: absolute;
+  position: relative;
   background-color: transparent;
   border: none;
   cursor: pointer;
   left: 650px;
-  top: 900px;
+  bottom: 200px;
 }
 
 .info {
@@ -131,7 +134,7 @@
   display: block;
   width: 6px;
   height: 6px;
-  margin: 2px 10px 0;
+  margin: 0px 8px 0;
   border-radius: 50%;
   background-color: #e6e6f0;
 }
@@ -160,6 +163,7 @@
 .nav__list {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
   margin-top: 16px;
 }
 
@@ -330,7 +334,7 @@
   display: flex;
   margin: 80px 0 106px 0;
 }
-.team__images {
+.team__img {
   border-radius: 12px 0px 0px 12px;
 }
 .team__info {
@@ -342,9 +346,9 @@
   border-radius: 0 12px 12px 0;
 }
 
-.scroll {
+.team__scroll {
   top: 330px;
-  left: 800px;
+  left: 900px;
   position: absolute;
 }
 
@@ -385,7 +389,7 @@
 
 /* !=============CLIENTS========== */
 .сontainer--xl {
-  max-width: 1820px;
+  max-width: 2120px;
   margin: 0 auto;
 }
 
@@ -485,8 +489,10 @@
 .Recommended__link--publi {
   color: #24a3ff;
 }
-.arrow__link {
+
+.recomend__img {
 }
+
 .Recommended__title {
   background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
@@ -498,12 +504,13 @@
 }
 
 .recomended__box {
-  max-width: 515px;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .recomend__items {
+  flex-basis: calc(100% / 3 - 30px);
   border-radius: 12px;
   background-color: #fff;
 }
