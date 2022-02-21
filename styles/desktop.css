@@ -51,7 +51,7 @@
   display: flex;
 }
 .main-title {
-  padding: 480px 0 537px 420px;
+  padding: 400px 0 537px 670px;
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
@@ -64,8 +64,8 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  top: 420px;
-  right: 290px;
+  top: 400px;
+  right: 300px;
 }
 
 .info {
@@ -400,10 +400,14 @@
   color: #b3b3ba;
 }
 
+.team-card__scroll svg {
+  position: absolute;
+}
+
 .team-card__scroll {
   position: relative;
   top: 30px;
-  left: 900px;
+  left: 48%;
 }
 
 .team-card__text {
@@ -424,6 +428,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #323264;
+  margin: 0;
 }
 
 .clients-list {
