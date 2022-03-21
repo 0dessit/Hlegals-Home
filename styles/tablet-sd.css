@@ -5,6 +5,8 @@
     padding: 0 60px;
   }
 
+  /* !=============HEADER========== */
+
   .header {
     padding-top: 60px;
   }
@@ -99,6 +101,8 @@
     padding: 0;
   }
 
+  /* !=============EXPERIENCE========== */
+
   .experience {
     padding: 60px 0;
   }
@@ -106,6 +110,8 @@
   .experience__list {
     align-items: flex-end;
   }
+
+  /* !=============SERVICES========== */
 
   .service-list {
     flex-direction: row;

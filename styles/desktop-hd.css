@@ -3,6 +3,7 @@
   .experience {
     padding: 60px 280px;
   }
+  /* !=============CLIENTS========== */
   .сontainer--xl {
     margin-bottom: 60px;
     padding: 0 100px;
@@ -25,7 +26,12 @@
     border-radius: 0 0 12px 0;
   }
 
+  /* !=============SERIVICES========== */
+
   .services-xl {
     color: #f0145a;
+  }
+  .arrow-xl {
+    stroke: #f0145a;
   }
 }

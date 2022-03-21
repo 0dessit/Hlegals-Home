@@ -1,26 +1,4 @@
-.section__title {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin: 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #24a3ff;
-}
-
-.text-accent {
-  width: fit-content;
-  color: transparent;
-  background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-size: clamp(30px, calc(38 / 1600 * 100vw), 38px);
-  font-weight: bold;
-}
-
-/* Page top block */
-
+/* !=============PAGE TOP BLOCK========== */
 .page-top-content {
   margin-bottom: 20px;
   position: relative;
@@ -56,7 +34,7 @@
   background-color: #e7e7f2;
 }
 
-/* HEADER */
+/* !=============HEADER========== */
 .header {
   min-height: 100vh;
   display: flex;
@@ -256,7 +234,7 @@
   cursor: pointer;
 }
 
-/* SERVICES */
+/* !=============SERVICE========== */
 .services__slogan {
   margin: 10px 0 0;
 }
@@ -269,6 +247,26 @@
   margin-top: clamp(30px, calc(60 / 1600 * 100vw), 60px);
   padding-left: 0;
   list-style: none;
+}
+.section__title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+}
+
+.text-accent {
+  width: fit-content;
+  color: transparent;
+  background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: clamp(30px, calc(38 / 1600 * 100vw), 38px);
+  font-weight: bold;
 }
 
 .service__item {
@@ -290,6 +288,10 @@
   font-size: 22px;
   line-height: 27px;
   color: #24a3ff;
+}
+
+.services-arrow {
+  stroke: #24a3ff;
 }
 
 .service__descr {
