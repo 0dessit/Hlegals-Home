@@ -1,0 +1,6 @@
+/* Desktop SD */
+@media screen and (min-width: 1440px) {
+  .experience {
+    padding: 60px 180px;
+  }
+}

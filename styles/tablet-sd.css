@@ -1,0 +1,218 @@
+/* Tablet SD */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1720px;
+    padding: 0 60px;
+  }
+
+  .header {
+    padding-top: 60px;
+  }
+
+  .header .container {
+    padding: 0 60px;
+  }
+
+  .header-logo-wrapper {
+    padding: 30px 0;
+  }
+
+  .header__logo {
+    width: 130px;
+  }
+
+  .header-nav__open {
+    display: none;
+  }
+
+  .header-contacts {
+    justify-content: flex-start;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .header__address {
+    font-size: 16px;
+    color: #b3b3ba;
+    text-decoration: none;
+  }
+
+  .header__address,
+  .header__phone,
+  .header__social {
+    display: block;
+    position: relative;
+  }
+
+  .header__address:hover {
+    color: #fff;
+  }
+
+  .header__phone:hover {
+    color: #f0145a;
+  }
+
+  .header__social svg {
+    fill: #fff;
+  }
+
+  .header__social:hover svg {
+    fill: #f0145a;
+  }
+
+  .header__address::before,
+  .header__phone::before,
+  .header__social::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 6px);
+    transform: translateY(-50%);
+    background-color: #e6e6f0;
+    border-radius: 50%;
+  }
+
+  .header-nav {
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .header-nav__link {
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .header-nav__close {
+    display: none;
+  }
+
+  .header-slogan {
+    padding: 0;
+  }
+
+  .experience {
+    padding: 60px 0;
+  }
+
+  .experience__list {
+    align-items: flex-end;
+  }
+
+  .service-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  .service__item {
+    --item-quantity: 2;
+  }
+
+  .team {
+    padding-top: 60px;
+  }
+  /* !=============CLIENTS========== */
+  .clients-item {
+    height: 120px;
+    padding: 22px;
+    flex-grow: 1;
+    flex-basis: 30%;
+  }
+  /* !=============Recommended========== */
+  .recomend__items {
+    flex-basis: calc(100% / 2 - 15px);
+  }
+  .recomended__box {
+    flex-direction: row;
+  }
+  .recomend__item-last {
+    flex-basis: 100%;
+  }
+
+  /* !=============Foooter========== */
+  .footer_info {
+    display: flex;
+  }
+
+  .sub-contact {
+    display: flex;
+  }
+  .footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-contact__list {
+    flex-direction: row;
+  }
+  .sub-contact__list {
+    flex-direction: row;
+  }
+
+  .contact__link::after {
+    content: "";
+    order: -1;
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: 3px 10px 0 10px;
+    border-radius: 50%;
+    background-color: #b3b3ba;
+  }
+  .contact__link {
+    margin-top: 0;
+  }
+
+  .sub-contact__link::after,
+  .footer-contact__link::after {
+    position: relative;
+    content: "";
+    order: -1;
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: 7px 10px 0px;
+    border-radius: 50%;
+    background-color: #b3b3ba;
+  }
+  .coppy {
+    display: flex;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .clients-item--clickky {
+    background-color: #c71c36;
+    display: none;
+  }
+  .clients-item--ecoleasing {
+    background-color: #dcf3f9;
+    display: none;
+  }
+  .clients-item--ingratek {
+    background-color: #eaeaea;
+    display: none;
+  }
+  .clients-item--citypark {
+    background-color: #282240;
+    display: none;
+  }
+  .clients-item--artprint {
+    background-color: #1d4568;
+    display: none;
+  }
+
+  .clients-item--ultimatecard {
+    background-color: #000;
+    display: none;
+  }
+}
