@@ -1,12 +1,19 @@
 /* Desktop HD */
 @media screen and (min-width: 1920px) {
-  .experience {
-    padding: 60px 280px;
+  /* !=============EXPERIENCE========== */
+  .experience__descr {
+    max-width: 911px;
   }
+  .experience__item-active {
+    color: transparent;
+    background-color: #f0145a;
+    -webkit-background-clip: text;
+  }
+
   /* !=============CLIENTS========== */
   .сontainer--xl {
     margin-bottom: 60px;
-    padding: 0 100px;
+    max-width: 1720px;
   }
   .clients-item--hillel {
     background-color: #1c4280;

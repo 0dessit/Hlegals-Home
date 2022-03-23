@@ -524,7 +524,6 @@
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   font-size: clamp(30px, calc(38 / 1600 * 100vw), 38px);
-
   line-height: 37px;
   margin: 5px 0 30px 0;
 }
@@ -604,7 +603,6 @@
 
 /* !=============FOOTER========== */
 .footer {
-  position: relative;
   background: #f5f5fa;
   padding: 30px 0 30px 0;
 }
@@ -612,17 +610,15 @@
 .footer-box {
   display: flex;
   flex-direction: column;
-  position: relative;
   padding-top: 30px;
 }
-.footer-box::after {
+.footer__container::before {
   content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  left: 0px;
+  order: -1;
+  display: block;
+  width: 100%;
   height: 2px;
-  background: #e6e6f0;
+  background-color: #e6e6f0;
 }
 
 .footer_contact {
@@ -709,9 +705,10 @@
 }
 
 .copyright-link {
+  display: flex;
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
   color: #b3b3ba;
-  text-align: center;
+  justify-content: center;
 }
