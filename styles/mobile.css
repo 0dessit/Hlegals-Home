@@ -101,6 +101,9 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.header-lang__item:hover {
+  box-shadow: inset 0 0 0 2px #f0145a;
+}
 
 .header-lang__item--active {
   background-color: #f0145a;
@@ -111,10 +114,12 @@
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 
 .header__phone:hover {
   color: #f0145a;
+  transition-delay: 0.1s;
 }
 
 .header__address,
@@ -155,11 +160,13 @@
   background: #f5f5fa;
   border-radius: 12px;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 
 .header-nav__link:hover,
 .header-nav__link--active {
   color: #f0145a;
+  transition-delay: 0.1s;
 }
 
 .header-nav__close {
@@ -227,11 +234,17 @@
   cursor: pointer;
 }
 
+.experience__item {
+  transition-duration: 0.2s;
+}
+
 .experience__item:hover:nth-child(2),
 .experience__item:hover:nth-child(3),
 .experience__item:hover:nth-child(4) {
   color: #f0145a;
   cursor: pointer;
+
+  transition-delay: 0.1s;
 }
 
 /* !=============SERVICE========== */
@@ -533,6 +546,15 @@
   flex-wrap: wrap;
   gap: 30px;
   flex-direction: column;
+}
+
+.zoom {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
 
 .recomend__items {

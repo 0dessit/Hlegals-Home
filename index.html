@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HLegals - Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
@@ -59,7 +60,7 @@
                     </div>
                 </div>
                 <p class="header-slogan">you legal solutions provider</p>
-                <a href="#experience" class="scroll-bottom-btn">
+                <a href="#experience" class="scroll-bottom-btn zoom">
                     <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2" />
                         <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
@@ -69,7 +70,7 @@
         </header>
 
         <!-- !=================EXPERIENCE================================== -->
-        <section id="experience" class="experience">
+        <section id="experience" class="experience josh-js" data-josh-anim-name="slideInLeft">
             <div class="container">
                 <ul class="experience__list">
                     <li class="experience__item text-accent">Consistent</li>
@@ -106,7 +107,7 @@
                     What can we do better than others?
                 </p>
                 <ul class="service-list">
-                    <li class="service__item">
+                    <li class="service__item zoom">
                         <div class="service__icon">
                             <img src="images/icon/1.svg" alt="Service icon" />
                         </div>
@@ -117,7 +118,7 @@
                             But there is not much work to do to hire an in-house lawyer.
                         </p>
                     </li>
-                    <li class="service__item">
+                    <li class="service__item zoom">
                         <div class="service__icon">
                             <img src="images/icon/2.svg" alt="Service icon" />
                         </div>
@@ -129,7 +130,7 @@
                             field of information technology in Ukraine.
                         </p>
                     </li>
-                    <li class="service__item">
+                    <li class="service__item zoom">
                         <div class="service__icon">
                             <img src="images/icon/3.svg" alt="Service icon" />
                         </div>
@@ -142,7 +143,7 @@
                             company.
                         </p>
                     </li>
-                    <li class="service__item">
+                    <li class="service__item zoom">
                         <div class="service__icon">
                             <img src="images/icon/4.svg" alt="Service icon" />
                         </div>
@@ -154,7 +155,7 @@
                             update status.
                         </p>
                     </li>
-                    <li class="service__item">
+                    <li class="service__item zoom">
                         <div class="service__icon">
                             <img src="images/icon/5.svg" alt="Service icon" />
                         </div>
@@ -168,7 +169,7 @@
                             corporate lawyer.
                         </p>
                     </li>
-                    <li class="service__item">
+                    <li class="service__item zoom">
                         <div class="service__icon">
                             <img src="images/icon/6.svg" alt="Service icon" />
                         </div>
@@ -293,7 +294,7 @@
                 <li class="clients-item clients-item--ingratek">
                     <img class="client-logo" src="images/partner-logo/InfraTeK.svg" alt="Infratek-logo" />
                 </li>
-                <li class="clients-item clients-item--citypark">
+                <li class="clients-item clients-item--citypark ">
                     <img class="client-logo" src="images/partner-logo/City-park.svg" alt="city-logo" />
                 </li>
                 <li class="clients-item clients-item--artprint">
@@ -316,7 +317,7 @@
             </div>
             <h3 class="Recommended__title">We have something to tell</h3>
             <div class="recomended__box">
-                <div class="recomend__items">
+                <div class="recomend__items josh-js" data-josh-anim-name="backInLeft">
                     <img class="recomend__img" src="images/info-img/Cover1.png" alt="img-info">
                     <div class="recomend-items-box">
                         <a href="#" class="recomend__title">
@@ -330,7 +331,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="recomend__items">
+                <div class="recomend__items  josh-js" data-josh-anim-name="backInUp">
                     <img class="recomend__img" src="images/info-img/Cover2.png" alt="img-info">
                     <div class="recomend-items-box">
                         <a href="#" class="recomend__title">
@@ -344,7 +345,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="recomend__items recomend__item-last">
+                <div class="recomend__items recomend__item-last josh-js" data-josh-anim-name="backInRight">
                     <img class="recomend__img" src="images/info-img/Cover3.png" alt="img-info">
                     <div class="recomend-items-box">
                         <a href="#" class="recomend__title">
@@ -393,6 +394,9 @@
             </div>
         </div>
     </footer>
+    <!-- !===SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.min.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 
 </html>
