@@ -458,6 +458,10 @@
   object-position: center;
 }
 
+.clients-link {
+  text-decoration: none;
+}
+
 .clients-item--hillel {
   background-color: #1c4280;
   transition: transform 0.3s;
